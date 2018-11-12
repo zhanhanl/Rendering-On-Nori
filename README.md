@@ -56,7 +56,7 @@ Final Gathering as the photon mapping method, which combines photon estimation w
 
 - VCM = VC + VM
 
-<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vcm.png" alt="Diffuse VCM" width=320 height=240>&nbsp;=&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vc.png" alt="Diffuse VC" width=160 height=120>&nbsp;+&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vm.png" alt="Diffuse VM" width=160 height=120>
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vcm.png" alt="Diffuse VCM" width=320 height=240>&nbsp;=&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vc.png" alt="Diffuse VC" width=240 height=180>&nbsp;+&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vm.png" alt="Diffuse VM" width=240 height=180>
 
 
 #### Caustic
