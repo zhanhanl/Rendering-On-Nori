@@ -51,7 +51,7 @@ Final Gathering as the photon mapping method, which combines photon estimation w
 ### Results
 #### Diffuse surfaces
 - Reference
-
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png" alt="Diffuse Refernce" width=72 height=72>
 ![dff ref](https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png =200x40)
 - VCM = VC + VM
 
