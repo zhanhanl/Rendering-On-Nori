@@ -51,11 +51,10 @@ Final Gathering as the photon mapping method, which combines photon estimation w
 ### Results
 #### Diffuse surfaces
 - Reference
-
-![dff ref](https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png =200x40)
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png" alt="Diffuse Refernce" width=320 height=240>
 - VCM = VC + VM
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vcm.png" alt="Diffuse VCM" width=320 height=240>&nbsp;=&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vc.png" alt="Diffuse VC" width=320 height=240>&nbsp;+&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vm.png" alt="Diffuse VM" width=320 height=240>
 
-![dff vc,](https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vcm.png =200x40)&nbsp;=&nbsp;![dff vm](https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vm.png =200x40)&nbsp;+&nbsp;![dff vc](https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vc.png =200x40)
 
 #### Caustic
 - Reference
