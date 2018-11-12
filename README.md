@@ -30,11 +30,14 @@ Rendering-On-Nori/
 File `nanoflann.hpp` is an external file from [jlblancoc](https://github.com/jlblancoc/nanoflann/blob/master/include/nanoflann.hpp). Files `vcm.cpp` and `photon_mapping` use it to perform the knn search for photon estimation.
 
 ## Table of algorithms
-- Bidirectional Path Tracing (BDPT) 
+- Bidirectional Path Tracing (BDPT) (register class [bdpt])
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`bdpt.cpp`
-- Photon Mapping(PM)
+- Photon Mapping(PM) (register class [photon_mapping])
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`photon_mapping.cpp`, `nanoflann.hpp`
-- Vertex Connection and Merging (VCM) 
+- Vertex Connection and Merging (VCM) (register class [vcm])
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`vcm.cpp`, `nanoflann.hpp`
 
 ## BDPT
