@@ -14,7 +14,7 @@
 [Nori](https://github.com/wjakob/nori) is a simple ray tracer written in C++ for educational usage, and I learned rendering with it on course [Realistic Image Synthesis](https://www.ics.uci.edu/~shz/courses/cs295/)
 
 ## What's included
-
+Nori register class for each algorithm is its file name. Says, Photon Mapping has "photon_mapping"  as Nori register class, and the file "photon_mapping.cpp" as well.
 Within the download, you will find the following directories and files. Copy the files to corresponding directories in Nori, and it's good to use. The structure of files looks like this: 
 
 ```text
@@ -30,13 +30,13 @@ Rendering-On-Nori/
 File `nanoflann.hpp` is an external file from [jlblancoc](https://github.com/jlblancoc/nanoflann/blob/master/include/nanoflann.hpp). Files `vcm.cpp` and `photon_mapping` use it to perform the knn search for photon estimation.
 
 ## Table of algorithms
-- Bidirectional Path Tracing (BDPT) (Nori register class as `bdpt`)
+- Bidirectional Path Tracing (BDPT)
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`bdpt.cpp`
-- Photon Mapping(PM) (Nori register class as `photon_mapping`)
+- Photon Mapping(PM) 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`photon_mapping.cpp`, `nanoflann.hpp`
-- Vertex Connection and Merging (VCM) (Nori register class as `vcm`)
+- Vertex Connection and Merging (VCM) 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`vcm.cpp`, `nanoflann.hpp`
 
