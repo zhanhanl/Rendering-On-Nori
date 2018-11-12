@@ -40,29 +40,28 @@ File `nanoflann.hpp` is an external file from [jlblancoc](https://github.com/jlb
 ## BDPT
 BDPT is implemented with reference [Veach 1997 Robust Monte Carlo Methods for Light Transport Simulation](http://graphics.stanford.edu/papers/veach_thesis/).
 ## PM
-Final Gathering as the photon mapping method, which combines photon estimation with direct illumination, is implemented instead of visualing the photon map, which has spots distributed throughout the scene.
+Final Gathering as the photon mapping method, which combines photon estimation with direct illumination, is implemented instead of visualizing the photon map, which has spots distributed throughout the scene.
 
 [1]	Jensen, Henrik W., Realistic Image Synthesis Using Photon Mapping, A K Peters, Ltd., Massachusetts, 2001
 
 [2] Zack Waters, Photon Mapping, https://web.cs.wpi.edu/~emmanuel/courses/cs563/write_ups/zackw/photon_mapping/PhotonMapping.html
 ## VCM
-[VCM](http://www.smallvcm.com/) refers BDPT as Vertex Connection(VC), and PM as Vertex Merging(VM) in the paper. It uses multiple importance sampling(MIS) to integrate BDPT and PM. The most taxing and rewarding part is implementing the MIS, which is the essense of VCM. In this code, the basic MIS is realized, without reusing the recursive  sub-path weights. Thus, even for a simple scene, rendering is much slower than BDPT.
+[VCM](http://www.smallvcm.com/) refers BDPT as Vertex Connection(VC), and PM as Vertex Merging(VM) in the paper. It uses multiple importance sampling(MIS) to integrate BDPT and PM. The most taxing and rewarding part is implementing the MIS, which is the essence of VCM. In this code, the basic MIS is realized, without reusing the recursive  sub-path weights. Thus, even for a simple scene, rendering is much slower than BDPT.
 
 ### Results
 #### Diffuse surfaces
 - Reference
-<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png" alt="Diffuse Refernce" width=320 height=240>
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png" alt="Diffuse Reference" width=320 height=240>
+
 - VCM = VC + VM
 <img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vcm.png" alt="Diffuse VCM" width=320 height=240>&nbsp;=&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vc.png" alt="Diffuse VC" width=320 height=240>&nbsp;+&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vm.png" alt="Diffuse VM" width=320 height=240>
 
 
 #### Caustic
 - Reference
-
-![cau ref](https://www.ics.uci.edu/~zhanhanl/images/vcm/caustic_ref.png =200x40)
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/caustic_ref.png" alt="Caustic Refernece" width=320 height=240>
 - VCM
-
-![cau vcm](https://www.ics.uci.edu/~zhanhanl/images/vcm/caustic_vcm.png =200x40)
+<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/caustic_vcm.png" alt="Caustic VCM" width=320 height=240>
 
 ## Thanks
 Thanks to [Prof. Shuang Zhao](www.shuangz.com) for helping me understand the multiple importance sampling and BDPT concept.
