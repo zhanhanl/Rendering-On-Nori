@@ -55,21 +55,21 @@ Final Gathering as the photon mapping method, which combines photon estimation w
 #### Diffuse surfaces
 - Reference
 
-<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_ref.png" alt="Diffuse Reference" width=320 height=240>
+<img src="https://www.ics.uci.edu/~zhanhanl/web_files/projects/vertex_connection_and_merging/vcm/diffuse_ref.png" alt="Diffuse Reference" width=320 height=240>
 
 - VCM = VC + VM
 
-<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vcm.png" alt="Diffuse VCM" width=320 height=240>&nbsp;=&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vc.png" alt="Diffuse VC" width=240 height=180>&nbsp;+&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/diffuse_vm.png" alt="Diffuse VM" width=240 height=180>
+<img src="https://www.ics.uci.edu/~zhanhanl/web_files/projects/vertex_connection_and_merging/vcm/diffuse_vcm.png" alt="Diffuse VCM" width=320 height=240>&nbsp;=&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/web_files/projects/vertex_connection_and_merging/vcm/diffuse_vc.png" alt="Diffuse VC" width=240 height=180>&nbsp;+&nbsp;<img src="https://www.ics.uci.edu/~zhanhanl/web_files/projects/vertex_connection_and_merging/vcm/diffuse_vm.png" alt="Diffuse VM" width=240 height=180>
 
 
 #### Caustic
 - Reference
 
-<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/caustic_ref.png" alt="Caustic Referenece" width=320 height=240>
+<img src="https://www.ics.uci.edu/~zhanhanl/web_files/projects/vertex_connection_and_merging/vcm/caustic_ref.png" alt="Caustic Referenece" width=320 height=240>
 
 - VCM
 
-<img src="https://www.ics.uci.edu/~zhanhanl/images/vcm/caustic_vcm.png" alt="Caustic VCM" width=320 height=240>
+<img src="https://www.ics.uci.edu/~zhanhanl/web_files/projects/vertex_connection_and_merging/vcm/caustic_vcm.png" alt="Caustic VCM" width=320 height=240>
 
 ## Thanks
 Thanks to [Prof. Shuang Zhao](www.shuangz.com) for helping me understand the multiple importance sampling and BDPT concept.
